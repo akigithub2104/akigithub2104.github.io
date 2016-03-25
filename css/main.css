@@ -21,8 +21,6 @@
 
 #b_lai{
 	background-color: blue;
-	position: absolute;
-
 }
 
 #a_lai{
@@ -43,16 +41,14 @@
 
 #f_lai {
 	background-color: blue;
-	margin-top: 50px;
 }
 
 #f_louisa{
 	background-color: none;
-	margin-top: 50px;
 }
 
 #b_louisa img{
-	max-width: 300px
+	max-width:100px
 }
 
 #a_louisa img{
