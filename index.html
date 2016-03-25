@@ -1,67 +1,121 @@
 <!doctype HTML>
 <html>
 <head>
-<title>
-	Banana Fair
-</title>
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-
+  <title>
+   Banana Fair
+ </title>
+ <link rel="stylesheet" type="text/css" href="SiteCSS.css"/>
+ <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+ <script type="text/javascript" src="jquery-2.2.2.js"></script>
+ <script type="text/javascript" src="jquery.flip.js"></script>
+ <script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.20/dist/jquery.flip.min.js"></script>
 </head>
 
 <body>
-<div class="card"> 
-  <div class="letter" id="b_louisa">
-  	<img src="http://payload449.cargocollective.com/1/2/74494/11298576/B_Gif.gif"/> 
-  </div> 
-  <div class="letter" id="b_lai"></div> 
+  <div class="card"> 
+    <div class="letter" id="b_louisa">
+     <img src="Louisa_Gifs/B_Gif.gif"/> 
+   </div> 
+   <div class="letter" id="b_lai">
+    <img src="Lai/b.gif"/>
+  </div>
 </div>
+
 <div class="card"> 
-  <div class="letter" id="a_lai"></div> 
+  <div class="letter" id="a_lai">
+    <img src="Lai/a1.gif"/>
+  </div> 
   <div class="letter" id="a_louisa">
-    <img src="http://payload449.cargocollective.com/1/2/74494/11298576/A_Gif.gif"/>
+    <img src="Louisa_Gifs/A_Gif.gif"/>
   </div> 
 </div>
+
 <div class="card"> 
   <div class="letter" id="n_louisa">
-    <img src="http://payload449.cargocollective.com/1/2/74494/11298576/N_1.gif"/>
+    <img src="Louisa_Gifs/N_1.gif"/>
   </div> 
-  <div class="letter" id="n_lai"></div> 
+  <div class="letter" id="n_lai">
+    <img src="Lai/n2.gif"/>
+  </div> 
 </div>
+
 <div class="card"> 
-  <div class="letter" id="a_lai"></div> 
+  <div class="letter" id="a_lai">
+    <img src="Lai/a3.gif"/>
+  </div> 
   <div class="letter" id="a_louisa">
-    <img src="http://payload449.cargocollective.com/1/2/74494/11298576/A_2_Gif.gif"/>
+    <img src="Louisa_Gifs/A_2_Gif.gif"/>
   </div> 
 </div>
+
 <div class="card"> 
   <div class="letter" id="n_louisa">
-    <img src="http://payload449.cargocollective.com/1/2/74494/11298576/N_2_Gif.gif"/>
+    <img src="Louisa_Gifs/N_2_Gif.gif"/>
   </div> 
-  <div class="letter" id="n_lai"></div> 
+  <div class="letter" id="n_lai">
+    <img src="Lai/n1.gif"/>
+  </div> 
 </div>
+
 <div class="card"> 
-  <div class="letter" id="a_lai"></div> 
+  <div class="letter" id="a_lai">
+    <img src="Lai/a2.gif"/>
+  </div> 
   <div class="letter" id="a_louisa">
-    <img src="http://payload449.cargocollective.com/1/2/74494/11298576/A_3_Gif.gif"/>
+    <img src="Louisa_Gifs/A_3_Gif.gif"/>
   </div> 
 </div>
+
 <div class="card"> 
   <div class="letter"></div> 
   <div class="letter">
-    
+
   </div> 
 </div>
 
 <div class="card"> 
-  <div class="letter" id="f_lai"></div> 
   <div class="letter" id="f_louisa">
-    <img src="louisa/F_Gif.gif"/>
+    <img src="Louisa_Gifs/F_Gif.gif"/>
+  </div>
+  <div class="letter" id="f_lai">
+    <img src="Lai/f.gif"/>
   </div> 
 </div>
 
+<div class="card"> 
+  <div class="letter" id="a_lai">
+    <img src="Lai/a4.gif"/>
+  </div>
+  <div class="letter" id="a_louisa">
+    <img src="Louisa_Gifs/A_4_Gif.gif"/>
+  </div> 
+</div>
+
+<div class="card"> 
+  <div class="letter" id="i_louisa">
+    <img src="Louisa_Gifs/I_static.gif"/>
+  </div> 
+  <div class="letter" id="i_lai">
+    <img src="Lai/i.gif"/>
+  </div>
+</div>
+
+<div class="card"> 
+  <div class="letter" id="r_lai">
+  <img src="Lai/r.gif"/>
+  </div> 
+  <div class="letter" id="r_louisa">
+        <img src="Louisa_Gifs/R_Gif.gif"/>
+  </div>
+</div>
 </body>
+
+<script type="text/javascript">
+$(function(){
+  $(".card").flip({
+    trigger: "hover"
+  });
+});
+</script>
 
 </html>
