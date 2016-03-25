@@ -1,0 +1,72 @@
+.card{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	float: left;
+
+}
+
+.letter{
+	padding: 10px;
+	width: 200px;
+	height:200px;
+	position: relative;
+	
+}
+
+#b_louisa{
+	background-color:none;
+	margin-left: -50px;
+	margin-top: -30px;
+
+}
+
+#b_lai{
+	background-color: blue;
+	position: absolute;
+
+}
+
+#a_lai{
+	background-color: blue;
+}
+
+#a_louisa{
+	background-color: none;
+}
+
+#n_lai{
+	background-color: blue;
+}
+
+#n_louisa{
+	background-color: none;
+}
+
+#f_lai {
+	background-color: blue;
+	margin-top: 50px;
+}
+
+#f_louisa{
+	background-color: none;
+	margin-top: 50px;
+}
+
+#b_louisa img{
+	max-width: 300px
+}
+
+#a_louisa img{
+	max-width:100%;
+}
+
+#n_louisa img{
+	max-width:100%;
+}
+
+#f_louisa img{
+	max-width:100%;
+}
+
