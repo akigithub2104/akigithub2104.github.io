@@ -1,18 +1,15 @@
-.card{
+.card {
 	margin: 10px;
-	width: 200px;
-	height: 200px;
-	position: relative;
+	width:200px;
+	height:200px;
 	float: left;
 
 }
 
-.letter{
-	padding: 10px;
-	width: 200px;
-	height:200px;
-	position: relative;
-	
+.letter {
+	padding:10px;
+	width: 100%;
+	height:100%;
 }
 
 #b_louisa{
@@ -20,11 +17,12 @@
 }
 
 #b_lai{
-	background-color: blue;
+	background-color:none;
+
 }
 
 #a_lai{
-	background-color: blue;
+	background-color: none;
 }
 
 #a_louisa{
@@ -32,7 +30,7 @@
 }
 
 #n_lai{
-	background-color: blue;
+	background-color: none;
 }
 
 #n_louisa{
@@ -40,9 +38,57 @@
 }
 
 #f_lai {
-	background-color: blue;
+	background-color: none;
 }
 
 #f_louisa{
 	background-color: none;
+}
+
+#b_louisa img{
+	max-width:100%;
+}
+
+#b_lai img{
+	max-width:100%;
+}
+
+#a_louisa img{
+	max-width:100%;
+}
+
+#a_lai img{
+	max-width:100%;
+}
+
+#n_louisa img{
+	max-width:100%;
+}
+
+#n_lai img{
+	max-width:100%;
+}
+
+#f_louisa img{
+	max-width:100%;
+}
+
+#f_lai img{
+	max-width:100%;
+}
+
+#i_louisa img{
+	max-width:100%;
+}
+
+#i_lai img{
+	max-width:100%;
+}
+
+#r_louisa img{
+	max-width:100%;
+}
+
+#r_lai img{
+	max-width:100%;
 }
