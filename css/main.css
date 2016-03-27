@@ -32,7 +32,7 @@
 }
 
 .b_louisa.selected img{
-	content:url('louisa_Gifs/B_Gif.gif');
+	content:url('Louisa_Gifs/B_Gif.gif');
 	width:400px;
 	height:400px;
 }
@@ -283,5 +283,5 @@
 }
 
 .r_louisa.selected img {
-	content: url('louisa_Gifs/R_Gif.gif')
+	content: url('Louisa_Gifs/R_Gif.gif')
 }
