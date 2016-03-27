@@ -1,0 +1,305 @@
+/*  space control  */
+
+.space {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+
+/*  b control  */
+
+.b {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.b_lai img{
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.b_louisa img{
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.b_louisa.selected img{
+	content:url('Louisa_Gifs/B_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  a1 control  */
+
+.a1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:200px;
+	height:200px;
+	float: left;
+}
+
+.a1_lai img {
+	padding-top:10px;
+	padding-left: 10px;
+	width:200px;
+	height:200px;
+}
+
+.a1_louisa img {
+	padding-top:10px;
+	padding-left: 10px;
+	width:200px;
+	height:200px;
+}
+
+.a1_louisa.selected img {
+	content: url('Louisa_Gifs/A_Gif.gif');
+	padding-top:10px;
+	padding-left:10px;
+	width:200px;
+	height:200px;
+}
+
+
+/*  n1 control  */
+
+.n1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.n1_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.n1_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.n1_louisa.selected img {
+	content: url('Louisa_Gifs/N_1.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  a2 control  */
+
+.a2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.a2_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a2_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a2_louisa.selected img {
+	content: url('Louisa_Gifs/A_2_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  n2 control  */
+
+.n2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.n2_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.n2_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.n2_louisa.selected img {
+	content: url('Louisa_Gifs/N_2_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  a3 control  */
+
+.a3 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.a3_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a3_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a3_louisa.selected img {
+	content: url('Louisa_Gifs/A_3_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  f control  */
+
+.f {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.f_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.f_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.f_louisa.selected img {
+	content: url('Louisa_Gifs/F_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  a4 control  */
+
+.a4 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.a4_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a4_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a4_louisa.selected img {
+	content: url('Louisa_Gifs/A_4_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  i control  */
+
+.i {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.i_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.i_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.i_louisa.selected img {
+	content: url('Louisa_Gifs/I_static.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  r control  */
+
+.r {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.r_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.r_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.r_louisa.selected img {
+	content: url('Louisa_Gifs/R_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
