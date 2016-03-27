@@ -41,7 +41,7 @@
 /*  a1 control  */
 
 .a1 {
-	margin-top: 190px;
+	margin-top: 10px;
 	margin-left: 10px;
 	width:200px;
 	height:200px;
@@ -63,7 +63,7 @@
 }
 
 .a1_louisa.selected img {
-	content: url('louisa_Gifs/A_Gif.gif');
+	content: url('Louisa_Gifs/A_Gif.gif');
     padding-top:10px;
 	padding-left:10px;
 	width:200px;
@@ -94,7 +94,9 @@
 }
 
 .n1_louisa.selected img {
-	content: url('louisa_Gifs/N_1.gif')
+	content: url('Louisa_Gifs/N_1.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -121,7 +123,9 @@
 }
 
 .a2_louisa.selected img {
-	content: url('louisa_Gifs/A_2_Gif.gif')
+	content: url('Louisa_Gifs/A_2_Gif.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -148,7 +152,9 @@
 }
 
 .n2_louisa.selected img {
-	content: url('louisa_Gifs/N_2_Gif.gif')
+	content: url('Louisa_Gifs/N_2_Gif.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -175,7 +181,9 @@
 }
 
 .a3_louisa.selected img {
-	content: url('louisa_Gifs/A_3_Gif.gif')
+	content: url('Louisa_Gifs/A_3_Gif.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -202,7 +210,9 @@
 }
 
 .f_louisa.selected img {
-	content: url('louisa_Gifs/F_Gif.gif')
+	content: url('Louisa_Gifs/F_Gif.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -229,7 +239,9 @@
 }
 
 .a4_louisa.selected img {
-	content: url('louisa_Gifs/A_4_Gif.gif')
+	content: url('Louisa_Gifs/A_4_Gif.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -256,7 +268,9 @@
 }
 
 .i_louisa.selected img {
-	content: url('louisa_Gifs/I_static.gif')
+	content: url('Louisa_Gifs/I_static.gif');
+	width:400px;
+	height:400px;
 }
 
 
@@ -283,5 +297,9 @@
 }
 
 .r_louisa.selected img {
-	content: url('Louisa_Gifs/R_Gif.gif')
+	content: url('Louisa_Gifs/R_Gif.gif');
+	width:400px;
+	height:400px;
 }
+
+
