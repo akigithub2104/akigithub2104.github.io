@@ -31,8 +31,15 @@
 	height:400px;
 }
 
+<<<<<<< Updated upstream
 .b_louisa.selected {
 	content:url('Louisa_Gifs/B_Gif.gif')
+=======
+.b_louisa.selected img{
+	content:url('Louisa_Gifs/B_Gif.gif');
+	width:400px;
+	height:400px;
+>>>>>>> Stashed changes
 }
 
 
@@ -62,7 +69,11 @@
 
 .a1_louisa.selected img {
 	content: url('Louisa_Gifs/A_Gif.gif');
+<<<<<<< Updated upstream
     padding-top:10px;
+=======
+	padding-top:10px;
+>>>>>>> Stashed changes
 	padding-left:10px;
 	width:200px;
 	height:200px;
