@@ -1,94 +1,287 @@
-.card {
-	margin: 10px;
+/*  space control  */
+
+.space {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+
+/*  b control  */
+
+.b {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.b_lai img{
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.b_louisa img{
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.b_louisa.selected img{
+	content:url('louisa_Gifs/B_Gif.gif');
+	width:400px;
+	height:400px;
+}
+
+
+/*  a1 control  */
+
+.a1 {
+	margin-top: 190px;
+	margin-left: 10px;
 	width:200px;
 	height:200px;
 	float: left;
-
 }
 
-.letter {
+.a1_lai img {
+	padding-top:10px;
+	padding-left: 10px;
+	width:200px;
+	height:200px;
+}
+
+.a1_louisa img {
+	padding-top:10px;
+	padding-left: 10px;
+	width:200px;
+	height:200px;
+}
+
+.a1_louisa.selected img {
+	content: url('louisa_Gifs/A_Gif.gif');
+    padding-top:10px;
+	padding-left:10px;
+	width:200px;
+	height:200px;
+}
+
+
+/*  n1 control  */
+
+.n1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.n1_lai img {
 	padding:10px;
-	width: 100%;
-	height:100%;
+	width:400px;
+	height:400px;
 }
 
-#b_louisa{
-	background-color:none;
+.n1_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#b_lai{
-	background-color:none;
-
+.n1_louisa.selected img {
+	content: url('louisa_Gifs/N_1.gif')
 }
 
-#a_lai{
-	background-color: none;
+
+/*  a2 control  */
+
+.a2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
 }
 
-#a_louisa{
-	background-color: none;
+.a2_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#n_lai{
-	background-color: none;
+.a2_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#n_louisa{
-	background-color: none;
+.a2_louisa.selected img {
+	content: url('louisa_Gifs/A_2_Gif.gif')
 }
 
-#f_lai {
-	background-color: none;
+
+/*  n2 control  */
+
+.n2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
 }
 
-#f_louisa{
-	background-color: none;
+.n2_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#b_louisa img{
-	max-width:100%;
+.n2_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#b_lai img{
-	max-width:100%;
+.n2_louisa.selected img {
+	content: url('louisa_Gifs/N_2_Gif.gif')
 }
 
-#a_louisa img{
-	max-width:100%;
+
+/*  a3 control  */
+
+.a3 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
 }
 
-#a_lai img{
-	max-width:100%;
+.a3_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#n_louisa img{
-	max-width:100%;
+.a3_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#n_lai img{
-	max-width:100%;
+.a3_louisa.selected img {
+	content: url('louisa_Gifs/A_3_Gif.gif')
 }
 
-#f_louisa img{
-	max-width:100%;
+
+/*  f control  */
+
+.f {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
 }
 
-#f_lai img{
-	max-width:100%;
+.f_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#i_louisa img{
-	max-width:100%;
+.f_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
 }
 
-#i_lai img{
-	max-width:100%;
+.f_louisa.selected img {
+	content: url('louisa_Gifs/F_Gif.gif')
 }
 
-#r_louisa img{
-	max-width:100%;
+
+/*  a4 control  */
+
+.a4 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
 }
 
-#r_lai img{
-	max-width:100%;
+.a4_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a4_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.a4_louisa.selected img {
+	content: url('louisa_Gifs/A_4_Gif.gif')
+}
+
+
+/*  i control  */
+
+.i {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.i_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.i_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.i_louisa.selected img {
+	content: url('louisa_Gifs/I_static.gif')
+}
+
+
+/*  r control  */
+
+.r {
+	margin-top: 10px;
+	margin-left: 10px;
+	width:400px;
+	height:400px;
+	float: left;
+}
+
+.r_lai img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.r_louisa img {
+	padding:10px;
+	width:400px;
+	height:400px;
+}
+
+.r_louisa.selected img {
+	content: url('louisa_Gifs/R_Gif.gif')
 }
