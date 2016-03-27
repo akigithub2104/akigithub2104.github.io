@@ -31,7 +31,7 @@
 	height:400px;
 }
 
-.b_louisa.selected img{
+.b_louisa.selected {
 	content:url('Louisa_Gifs/B_Gif.gif')
 }
 
