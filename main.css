@@ -17,25 +17,27 @@
 	width:400px;
 	height:400px;
 	float: left;
-	cursor:crosshair;
 }
 
 .b_lai img{
 	padding:10px;
 	width:400px;
 	height:400px;
+	cursor:crosshair;
 }
 
 .b_louisa img{
 	padding:10px;
 	width:400px;
 	height:400px;
+	cursor:crosshair;
 }
 
 .b_louisa.selected img{
 	content:url('Louisa_Gifs/B_Gif.gif');
 	width:400px;
 	height:400px;
+	cursor:crosshair;
 }
 
 
