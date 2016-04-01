@@ -1,6 +1,7 @@
 body {
-	width:1280px; 
+	width:1450px; 
 	margin:0 auto;
+	overflow:hidden;
 }
 
 /*  space control  */
@@ -14,7 +15,7 @@ body {
 }
 
 .banana {
-	margin-top: 40px;
+	margin-top: 150px;
 	margin-bottom: 50px;
 	clear:left;
 	cursor:crosshair;
@@ -22,62 +23,140 @@ body {
 
 .fair{
 	margin-top: 10px;
-	margin-left: 230px;
+	margin-left: 270px;
 	cursor:crosshair;
 }
 
 .green{
-	margin-bottom: 50px;
+    position: fixed;
 	width: 100px;
 	height: 100px;
 	float:left;
 }
 
-#tidbit1{
+#tidbit1 img{
 	position: fixed;
-	margin-left: 450px;
-	margin-top: 600px;
-
+	margin-left: 400px;
+	margin-top: 550px;
+	width: 40px;
+	height: auto;
 }
 
-#tidbit2{
-	margin-left: 180px;
-	margin-top: 50px;
-
+#tidbit2 img{
+	position: fixed;
+	margin-left: 980px;
+	margin-top: 560px;
+	width: 40px;
+	height: auto;
 }
 
-#tidbit3{
-	margin-left: 70px;
-	margin-top: 20px;
+#tidbit3 img{
+	position: fixed;
+	margin-left: 120px;
+	margin-top: -30px;
+	width: 40px;
+	height: auto;
 }
 
+#tidbit4 img{
+	position: fixed;
+	margin-left: 1000px;
+	margin-top: -40px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit5 img{
+	position: fixed;
+	margin-left: 550px;
+	margin-top: -100px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit6 img{
+	position: fixed;
+	position: fixed;
+	margin-left: 1280px;
+	margin-top: -60px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit7 img{
+	position: fixed;
+	margin-left: 1230px;
+	margin-top: 420px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit8 img{
+	position: fixed;
+	margin-left: 700px;
+	margin-top: 570px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit9 img{
+	position: fixed;
+	margin-left: 200px;
+	margin-top: 340px;
+	width: auto;
+	height: 50px;
+}
+
+#tidbit10 img{
+	position: fixed;
+	margin-left: 120px;
+	margin-top: 480px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit11 img{
+	position: fixed;
+	margin-left: 730px;
+	margin-top: -10px;
+	width: 40px;
+	height: auto;
+}
+
+#tidbit12 img{
+	position: fixed;
+	margin-left: 400px;
+	margin-top: -50px;
+	width: 40px;
+	height: auto;
+}
 
 /*  b control  */
 
 .b {
 	margin-top: 10px;
-	margin-left: 0px;
-	width:200px;
-	height:200px;
+	margin-left: 10px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .b_lai img{
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .b_louisa img{
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .b_louisa.selected img{
 	content:url('Louisa_Gifs/B_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -85,32 +164,32 @@ body {
 
 .a1 {
 	margin-top: 10px;
-	margin-left: 0px;
-	width:200px;
-	height:200px;
+	margin-left: 10px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .a1_lai img {
 	padding-top:10px;
 	padding-left: 10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a1_louisa img {
 	padding-top:10px;
 	padding-left: 10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a1_louisa.selected img {
 	content: url('Louisa_Gifs/A_Gif.gif');
 	padding-top:10px;
 	padding-left:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -119,27 +198,27 @@ body {
 .n1 {
 	margin-top: 10px;
 	margin-left: 0px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .n1_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .n1_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .n1_louisa.selected img {
 	content: url('Louisa_Gifs/N_1.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -148,27 +227,27 @@ body {
 .a2 {
 	margin-top: 10px;
 	margin-left: 0px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .a2_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a2_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a2_louisa.selected img {
 	content: url('Louisa_Gifs/A_2_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -177,27 +256,27 @@ body {
 .n2 {
 	margin-top: 10px;
 	margin-left: 0px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .n2_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .n2_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .n2_louisa.selected img {
 	content: url('Louisa_Gifs/N_2_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -206,27 +285,27 @@ body {
 .a3 {
 	margin-top: 10px;
 	margin-left: 0px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .a3_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a3_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a3_louisa.selected img {
 	content: url('Louisa_Gifs/A_3_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -235,27 +314,27 @@ body {
 .f {
 	margin-top: 50px;
 	margin-left: -10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .f_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .f_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .f_louisa.selected img {
 	content: url('Louisa_Gifs/F_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -264,27 +343,27 @@ body {
 .a4 {
 	margin-top: 50px;
 	margin-left: -10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .a4_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a4_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .a4_louisa.selected img {
 	content: url('Louisa_Gifs/A_4_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -293,27 +372,27 @@ body {
 .i {
 	margin-top: 50px;
 	margin-left: -10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .i_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .i_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .i_louisa.selected img {
 	content: url('Louisa_Gifs/I_static.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 
@@ -322,25 +401,25 @@ body {
 .r {
 	margin-top: 50px;
 	margin-left: -10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 	float: left;
 }
 
 .r_lai img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .r_louisa img {
 	padding:10px;
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
 
 .r_louisa.selected img {
 	content: url('Louisa_Gifs/R_Gif.gif');
-	width:200px;
-	height:200px;
+	width:230px;
+	height:230px;
 }
