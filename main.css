@@ -1,3 +1,5 @@
+
+
 /*  space control  */
 
 .space {
@@ -8,41 +10,69 @@
 	float: left;
 }
 
+.banana {
+	margin-top: 40px;
+	clear:left;
+
+}
+
+.fair{
+	margin-top: 10px;
+	margin-left: 230px;
+}
+
+.green{
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+
+#tidbit2{
+	margin-left: 180px;
+	margin-top: 20px;
+
+}
+
+#tidbit3{
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
 
 /*  b control  */
 
 .b {
 	margin-top: 10px;
-	margin-left: 10px;
-	width:400px;
-	height:400px;
+	margin-left: 0px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .b_lai img{
 	padding:10px;
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 .b_louisa img{
 	padding:10px;
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 .b_louisa.selected img{
 	content:url('Louisa_Gifs/B_Gif.gif');
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 
 /*  a1 control  */
 
 .a1 {
-	margin-top: 190px;
-	margin-left: 10px;
+	margin-top: 10px;
+	margin-left: 0px;
 	width:200px;
 	height:200px;
 	float: left;
@@ -75,28 +105,28 @@
 
 .n1 {
 	margin-top: 10px;
-	margin-left: 10px;
-	width:300px;
-	height:300px;
+	margin-left: 0px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .n1_lai img {
 	padding:10px;
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 .n1_louisa img {
 	padding:10px;
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 .n1_louisa.selected img {
 	content: url('Louisa_Gifs/N_1.gif');
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 
@@ -104,28 +134,28 @@
 
 .a2 {
 	margin-top: 10px;
-	margin-left: 10px;
-	width:100px;
-	height:100px;
+	margin-left: 0px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .a2_lai img {
 	padding:10px;
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 }
 
 .a2_louisa img {
 	padding:10px;
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 }
 
 .a2_louisa.selected img {
 	content: url('Louisa_Gifs/A_2_Gif.gif');
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 }
 
 
@@ -133,7 +163,7 @@
 
 .n2 {
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 0px;
 	width:200px;
 	height:200px;
 	float: left;
@@ -161,37 +191,37 @@
 /*  a3 control  */
 
 .a3 {
-	margin-top: 120px;
-	margin-left: 10px;
-	width:300px;
-	height:300px;
+	margin-top: 10px;
+	margin-left: 0px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .a3_lai img {
 	padding:10px;
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 .a3_louisa img {
 	padding:10px;
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 .a3_louisa.selected img {
 	content: url('Louisa_Gifs/A_3_Gif.gif');
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 
 /*  f control  */
 
 .f {
-	margin-top: 10px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: -10px;
 	width:200px;
 	height:200px;
 	float: left;
@@ -219,37 +249,37 @@
 /*  a4 control  */
 
 .a4 {
-	margin-top: 100px;
-	margin-left: 10px;
-	width:300px;
-	height:300px;
+	margin-top: 20px;
+	margin-left: -10px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .a4_lai img {
-	padding:10px;
-	width:300px;
-	height:300px;
+	padding:20px;
+	width:200px;
+	height:200px;
 }
 
 .a4_louisa img {
 	padding:10px;
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 .a4_louisa.selected img {
 	content: url('Louisa_Gifs/A_4_Gif.gif');
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
 
 /*  i control  */
 
 .i {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 20px;
+	margin-left: -10px;
 	width:200px;
 	height:200px;
 	float: left;
@@ -277,29 +307,29 @@
 /*  r control  */
 
 .r {
-	margin-top: -100px;
-	margin-left: 10px;
-	width:400px;
-	height:400px;
+	margin-top: 20px;
+	margin-left: -10px;
+	width:200px;
+	height:200px;
 	float: left;
 }
 
 .r_lai img {
 	padding:10px;
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 .r_louisa img {
 	padding:10px;
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 .r_louisa.selected img {
 	content: url('Louisa_Gifs/R_Gif.gif');
-	width:400px;
-	height:400px;
+	width:200px;
+	height:200px;
 }
 
 
